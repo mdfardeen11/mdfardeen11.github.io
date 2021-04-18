@@ -7,7 +7,7 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root {
   --gradient: linear-gradient(
     to right,
@@ -23,7 +23,7 @@
   background-color: var(--bg-color);
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Typography =====*/
 :root {
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -38,7 +38,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root {
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -365,7 +365,7 @@ img {
   overflow: hidden;
   position: relative;
 }
-/* .folio__overlay, */
+
 .folio__img img {
   transition: 1s;
   cursor: pointer;
@@ -529,7 +529,7 @@ img {
   .folio__container {
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-rows: repeat(2, 1fr); */
-    grid-template-rows: repeat(1, 1fr);
+    /* grid-template-rows: repeat(1, 1fr); */
     column-gap: 2rem;
   }
   .contact__form {
